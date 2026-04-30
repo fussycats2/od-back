@@ -1,13 +1,5 @@
-let a = 1;
-let b = 2;
-console.log(__dirname);
+const { testCreateFiles } = require("./base/FileManager");
+const { main } = require("./base/sum");
 
-console.log(a + b);
-
-function sum(a, b) {
-    console.log(a);
-    console.log(b);
-    return a + b;
-}
-const c = sum(a, b);
-console.log(c);
+// main();
+testCreateFiles();
