@@ -1,5 +1,5 @@
 Platform: linux
 
-  Free Memory: 14266306560
+  Free Memory: 14092070912
 
-  Total Memory: 16407781376
+  Total Memory: 16407769088

@@ -24,6 +24,7 @@ function testCreateFiles() {
   Total Memory: ${osTotalmem}`;
 
   createFile("os.txt", osInfo);
+  ("");
 }
 
 module.exports = { createFile, testCreateFiles };
